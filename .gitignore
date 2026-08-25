@@ -1,0 +1,70 @@
+# Target (Maven output)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+*.settings/
+.postman/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Gizli bilgiler (GitHub'a YÜKLENMEZ)
+env.properties
+!env.properties.example
+.env
+.env.*
+!.env.example
+# Local development environment files must never be committed.
+development.env
+.vscode/development.env
+*.local
+
+# Yerel Spring profil dosyası - veritabanı şifrelerini içerir
+src/main/resources/application-local.properties
+!src/main/resources/application-local.properties.example
+
+env.properties
+
+# Yerel veritabanı yedekleri ve dışa aktarımlar
+backups/
+*.sql
+*.dump
+*.bak
+*.sqlite
+*.db
+
+# Gerçek içe aktarma belgeleri
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.docx
+
+# Geçici / yerel çalışma dosyaları
+tmp/
+temp/
+.cache/
+.ollama/
+ollama/
+models/
+
+# Yerel sertifikalar ve anahtar depoları
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Yerel API istemcisi koleksiyonları
+postman/
